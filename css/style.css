@@ -185,6 +185,11 @@ ul {
     padding-left: 25px;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.about-menu ul li:last-child {
+    border-bottom: 0;
 }
 
 .about-menu ul li a {
@@ -192,9 +197,25 @@ ul {
     color: #333;
     font-size: 18px;
     display: block;
+    transition: 0.3s;
 }
 
-.about-menu ul li a:hover {}
+.about-menu ul li a:hover {
+    color: tomato;
+}
 
 
 /* Footer CSS */
+
+.footer {
+    text-align: center;
+    background-color: teal;
+    padding: 20px;
+}
+
+.footer p {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+}
